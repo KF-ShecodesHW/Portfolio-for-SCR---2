@@ -70,6 +70,28 @@ body {
     transform: translate(-50%, -50%);
     color: black;
   }
+
+  .project-title {
+    padding-top: 20px;
+  }
+
+  /* Place text in the middle of the image */
+  .hero-text-2 {
+    text-align: center !important;
+    position: absolute;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .dev-image {
+    padding-top: 5px !important;
+  }
+
+  #testonmials {
+    justify-content: center !important;
+  }
 }
 
 body {
@@ -254,10 +276,44 @@ html {
   color: black;
 }
 
+/* The hero image on about page*/
+.hero-image-2 {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/109/original/KellyNeonEDITED-211_%281%29.png?1650234810");
+
+  /* Set a specific height */
+  height: 95%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text-2 {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 img {
-  border-radius: 30px;
+  border-radius: 4px !important;
 }
 
 .card-body {
   justify-content: center !important;
+}
+
+.origin-story-title {
+  margin-top: 30px;
+}
+
+.dev-image {
+  padding-top: 40px;
 }
