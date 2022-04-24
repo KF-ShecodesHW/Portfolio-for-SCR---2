@@ -43,13 +43,34 @@ body {
     display: flex;
   }
 
+  .btn-primary {
+    display: flex;
+    margin-top: 20px;
+    background-color: var(--Primary-color-CTA) !important;
+    color: black !important;
+    border-color: var(--Primary-color-CTA) !important;
+    padding: 15px !important;
+    padding-top: 15px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    box-shadow: var(--box-shadow) !important;
+    border-radius: 10px !important;
+    justify-content: center !important;
+    transition: all 200ms ease-in-out;
+  }
+
+  .btn-primary:hover {
+    background-color: #4dbcc2 !important; /* Green */
+    color: white !important;
+  }
+
   p {
     font-family: "Cabin", sans-serif;
     font-weight: normal !important;
   }
 
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/911/original/Kelly-banner.png?1650054658");
 
     /* Set a specific height */
@@ -65,7 +86,7 @@ body {
   .hero-text {
     text-align: right;
     position: absolute;
-    top: 40% !important;
+    top: 50% !important;
     left: 50% !important;
     transform: translate(-50%, -50%);
     color: black;
@@ -73,6 +94,10 @@ body {
 
   .project-title {
     padding-top: 20px;
+  }
+
+  .hero-image-2 {
+    height: 60% !important;
   }
 
   /* Place text in the middle of the image */
@@ -119,6 +144,14 @@ body {
     position: relative;
   }
 
+  .hero-image-3 {
+    height: 60% !important;
+  }
+
+  .hero-image-4 {
+    height: 60% !important;
+  }
+
   .hero-text-4 {
     text-align: center !important;
     position: absolute;
@@ -151,7 +184,7 @@ body {
   }
 }
 
-body {
+end body {
   margin-top: 75px;
   background-color: #fde3dd;
 }
