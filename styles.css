@@ -70,26 +70,25 @@ body {
   }
 
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/911/original/Kelly-banner.png?1650054658");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/911/original/Kelly-banner.png?1650054658") !important;
 
-    /* Set a specific height */
     height: 60% !important;
 
     /* Position and center the image to scale nicely on all screens */
-    background-position: -300px !important;
+    background-position: center !important;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
 
   .hero-text {
-    text-align: right;
+    text-align: center;
     position: absolute;
-    top: 50% !important;
+    top: 50% !important ;
     left: 50% !important;
     transform: translate(-50%, -50%);
-    color: black;
+    color: white !important;
   }
 
   .project-title {
@@ -492,3 +491,4 @@ img {
   margin-left: 300px;
   margin-right: 300px;
 }
+
