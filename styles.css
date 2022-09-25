@@ -183,6 +183,182 @@ body {
   }
 }
 
+@media (max-width: 925px) {
+  h1 {
+    font-size: 200px !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold !important;
+  }
+
+  h2 {
+    font-size: 18px;
+    justify-content: center !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold !important;
+  }
+
+  h3 {
+    font-size: 16px;
+    justify-content: center !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold !important;
+  }
+
+  h4 {
+    font-size: 16px;
+    padding: 0px;
+    display: flex;
+    justify-content: center !important;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold !important;
+  }
+
+  #work-btn {
+    text-align: center;
+    margin: auto;
+    display: flex;
+  }
+
+  .btn-primary {
+    display: flex;
+    margin-top: 20px;
+    background-color: var(--Primary-color-CTA) !important;
+    color: black !important;
+    border-color: var(--Primary-color-CTA) !important;
+    padding: 15px !important;
+    padding-top: 15px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    box-shadow: var(--box-shadow) !important;
+    border-radius: 10px !important;
+    justify-content: center !important;
+    transition: all 200ms ease-in-out;
+  }
+
+  .btn-primary:hover {
+    background-color: #4dbcc2 !important; /* Green */
+    color: white !important;
+  }
+
+  p {
+    font-family: "Cabin", sans-serif;
+    font-weight: normal !important;
+  }
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/031/911/original/Kelly-banner.png?1650054658") !important;
+
+    height: 60% !important;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50% !important ;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    color: white !important;
+  }
+
+  .project-title {
+    padding-top: 20px;
+  }
+
+  .hero-image-2 {
+    height: 60% !important;
+  }
+
+  /* Place text in the middle of the image */
+  .hero-text-2 {
+    text-align: center !important;
+    position: absolute;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .dev-image {
+    padding-top: 5px !important;
+  }
+
+  #testonmials {
+    justify-content: center !important;
+  }
+
+  #forms {
+    margin-top: 10px;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    display: flex;
+  }
+
+  #exampleFormControlInput {
+    text-align: center;
+    margin: auto;
+    display: flex;
+  }
+
+  .hero-image-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/032/593/original/Kelly-Summerset-EDITED-39.jpg?1650758866");
+
+    height: 100%;
+
+    /* ABOUT PAGE - Position and center the image to scale nicely on all screens */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-image-3 {
+    height: 60% !important;
+  }
+
+  .hero-image-4 {
+    height: 60% !important;
+  }
+
+  .hero-text-4 {
+    text-align: center !important;
+    position: absolute;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .navi-list {
+    overflow: hidden;
+    background-color: #4dbcc2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 68px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 68px;
+    padding-bottom: 100px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    text-decoration: none !important;
+    flex: 1 0 auto;
+    list-style: none;
+  }
+}
+
 end body {
   margin-top: 75px;
   background-color: #fde3dd;
